@@ -1,12 +1,14 @@
 
+// By MushyAvocado
 
-function inContent2() {
+function init() {
+	
 	var navLocation = $('#nav-global-location-slot')[0];
 	var navLogo = $("#nav-logo")[0];
 	var navContainer = $("#nav-tools")[0];
 	
-	navContainer.insertBefore(navLogo, navContainer.firstChild);
 	navContainer.insertBefore(navLocation, navContainer.firstChild);
+	navContainer.insertBefore(navLogo, navContainer.firstChild);
 	
 	var navSearch = $("#nav-search")[0];
 	console.log(navSearch);
@@ -21,4 +23,4 @@ function inContent2() {
 
 }
 
-inContent2();	
+init();	
