@@ -1,6 +1,6 @@
 {
-	"name": "Amazon search bar fix",
-	"description": "Fixes the search bar.",
+	"name": "Amazon Search Bar Fix",
+	"description": "Fixes the search bar in Amazon.com, because it's annoying.",
 	"version": "1.0",
 	"manifest_version": 3,
 	"content_scripts": [{
