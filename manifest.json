@@ -1,0 +1,11 @@
+{
+	"name": "Amazon search bar fix",
+	"description": "Fixes the search bar.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [{
+  		"matches": ["*://www.amazon.com/*"],
+  		"js": ["thirdParty/jquery.min.js", "contentScript.js"]
+	}],
+	"permissions": ["tabs", "scripting", "activeTab"]
+}
